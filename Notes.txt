@@ -32,7 +32,7 @@ Notes!!
       @font-face {
   font-family: 'Departure Mono';
   src: url('DepartureMono-Regular.otf') format('opentype');
-}
+     }
     body {
       background-color: black;
       color: white;
@@ -47,5 +47,7 @@ Notes!!
   </head>
   <body>
     <p>Coming Soon!</p>
+    <br><br>
+    <p id="text"><a href="https://soarinvandenberg.ca"><-- Exit</a></p>
   </body>
 </html>

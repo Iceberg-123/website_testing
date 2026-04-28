@@ -24,15 +24,23 @@
      }
     body {
       background-color: black;
-      color: white;
+      color: #00be00;
       }
       #massive {
         font-size: 100px;
       }
+      .flash {
+        animation: flashcolor 0.75s infinite;
+      }
+      @keyframes flashcolor {
+        0% { color: black }
+        50% { color:#00be00 }
+        100% { color:black }
+      }
   </style>
   </head>
   <body>
-    <p id="massive">CHICKEN</p>
-        <p id="massive">BUTT</p>
+    <p id="massive" class="flash">CHICKEN</p>
+        <p id="massive" class="flash">BUTT</p>
   </body>
 </html>

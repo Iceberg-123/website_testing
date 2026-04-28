@@ -25,21 +25,23 @@
     body {
       background-color: black;
       color: #00be00;
+      text-align: center;
       }
       #massive {
-        font-size: 100px;
+        font-size: 200px;
       }
       .flash {
-        animation: flashcolor 0.75s infinite;
+        animation: hardflash 0.5s steps(1) infinite;
       }
-      @keyframes flashcolor {
-        0% { color: black }
-        50% { color:#00be00 }
-        100% { color:black }
+      @keyframes hardflash {
+        0% { opacity: 1; }
+        50% { opacity: 0; }
+        100% { opacity: 1; }
       }
   </style>
   </head>
   <body>
+    <br><br><br><br>
     <p id="massive" class="flash">CHICKEN</p>
         <p id="massive" class="flash">BUTT</p>
   </body>

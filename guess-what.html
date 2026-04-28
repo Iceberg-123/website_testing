@@ -31,17 +31,17 @@
         font-size: 200px;
       }
       .flash {
-        animation: hardflash 0.5s steps(1) infinite;
+        animation: flashcolor 0.75s infinite;
       }
-      @keyframes hardflash {
-        0% { opacity: 1; }
-        50% { opacity: 0; }
-        100% { opacity: 1; }
+      @keyframes flashcolor {
+        0% { color: black; }
+        50% { color: #00be00; }
+        100% { color: black; }
       }
   </style>
   </head>
   <body>
-    <br><br><br><br>
+    <br><br>
     <p id="massive" class="flash">CHICKEN</p>
         <p id="massive" class="flash">BUTT</p>
   </body>
